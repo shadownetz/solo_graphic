@@ -31,29 +31,6 @@ font-family:"Courier New", Courier, monospace;
 }
 .sect-two p{text-align: center;display: block;padding:30px 10px;
 font-size:1.5em}
-.sect-three .sect-three-img1{
-  background:url("../images/card1.jpg") no-repeat center; background-size:100%;
-}
-.sect-three .sect-three-img2{
-  background:url("../images/card2.jpg") no-repeat center; background-size:100%;
-}
-.sect-three .sect-three-img3{
-  background:url("../images/card3.jpg") no-repeat center; background-size:100%;
-}
-.sect-three .sect-three-img4{
-  background:url("../images/card4.jpg") no-repeat center; background-size:100%;
-}
-.sect-three .card{
-  margin-top:2px;background-color:#fff;box-shadow:1px 1px 1px #000;
-  font-size:1.5em;height:300px;
-}
-.card .card-inner{background-color:rgb(10,10,10,0.5);color:#fff;
-height:100%;text-align: center;
-}
-.card .card-inner h3 i{padding-right:10px}
-.card .card-inner hr{width:50%;text-align: center;margin-left:25%;}
-.card .card-inner h5{line-height: 50px;}
-.card .card-inner{display: none;}
 .sect-four{text-align: center;}
 .sect-four .pagination a:hover{cursor:pointer;}
 .sect-four .pagination .active a::before{
@@ -98,6 +75,7 @@ height:100%;text-align: center;
 .slides .slides-txt{font-size: 1.5em;color:#fff;font-variant: small-caps;top:60%;background-color:rgba(10,10,10,0.3);
 border-radius: 20px;text-shadow: 2px 2px 2px #000;animation-delay: 1s;animation-duration: 3s;
 }
-.sect-three .slides-txt{font-size: 1em;color:#fff;font-variant: small-caps;top:60%;background-color:rgba(10,10,10,0.3);
-border-radius: 20px;text-shadow: 2px 2px 2px #000;animation-duration: 3s;
+.sect-three{}
+.sect-three .sect-three-txt{
+  text-align: justify;
 }

@@ -7,6 +7,7 @@ function carousel(){
     x[i].style.display = "none";
     y[i].style.color = "rgb(200,200,200)";
   }
+
   x[slideIndex].style.display = "block";
   y[slideIndex].style.color = "#3D9970";
   slideIndex++;
@@ -16,17 +17,6 @@ function carousel(){
   setTimeout(carousel,5000); //display next image after 5s
 }
 carousel();
-//functions to show and hide the hover effect
-function overLayShow(n){
-  var nTemp = n.toString();
-  var x = document.getElementById(n);
-  x.style.display = "block";
-}
-function overLayHide(n){
-  var nTemp = n.toString();
-  var x = document.getElementById(n);
-  x.style.display = "none";
-}
 //iterate through the different logos
 var ini = 5;
 function nxtPage(n){
