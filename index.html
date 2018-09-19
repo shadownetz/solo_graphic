@@ -2,8 +2,10 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="css/font-awesome.min.css">
 <link href="css/animate.min.css" rel="stylesheet">
@@ -14,10 +16,10 @@
 <body>
 <header>
   <div class="row pattern-head">
-<div class="col-md-2 pattern-head-img">
+<div class="col-md-2 col-sm-3 col-xs-4 col-lg-3 pattern-head-img">
 <h3>SOLO <span class="img-txt">GRAPHICS</span></h3>
 </div>
-<div class="col-md-10 pattern-head-content">
+<div class="col-md-10 col-sm-9 col-xs-8 col-lg-9 pattern-head-content">
   <ul>
     <li><a href="#">Home</a></li>
     <li><a href="#">Shop</a></li>
@@ -28,35 +30,49 @@
 </div>
   </div>
 </header>
+<div class="container"  style="margin-top:100px">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
-<div class="col-md-12" style="margin-top:100px">
-<div class="col-md-8 col-md-offset-2 carousel" style="height:500px;padding:20px 0px">
-<div class="slides img-1 animated slideInRight">
-<div class="col-md-6 col-md-offset-5 slides-txt animated fadeIn">
-Make design easier with SOLO GRAPHICS
-</div>
-</div>
-<div class="slides img-2 animated slideInRight">
-  <div class="col-md-6 col-md-offset-5 slides-txt animated fadeIn">
-  Make design easier with SOLO GRAPHICS
-  </div>
-</div>
-<div class="slides img-3 animated slideInRight">
-  <div class="col-md-6 col-md-offset-5 slides-txt animated fadeIn">
-  Make design easier with SOLO GRAPHICS
-  </div>
-</div>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
 
-</div>
-<div class="col-md-12" style="text-align:center">
-  <div class="col-md-3 col-md-offset-3"><button class="btn btn-warning">Get Started</button></div>
-  <div class="col-md-3"><button class="btn btn-default">Learn More</button></div>
-<div class="carousel-inner">
-<span class="img-round"><i class="fa fa-circle"></i></span>
-<span class="img-round"><i class="fa fa-circle"></i></span>
-<span class="img-round"><i class="fa fa-circle"></i></span>
-</div>
-</div>
+      <div class="item active">
+        <div class="img-1" style="height:500px">
+          <div class="col-md-6 col-sm-6 col-xs-6 col-xs-offset-5 col-sm-offset-5 col-md-offset-5 slides-txt animated fadeIn">
+          Make design easier with SOLO GRAPHICS
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="img-2" style="height:500px">
+          <div class="col-md-6 col-sm-6 col-xs-6 col-xs-offset-5 col-sm-offset-5 col-md-offset-5 slides-txt animated fadeIn">
+          Make design easier with SOLO GRAPHICS
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="img-3" style="height:500px">
+          <div class="col-md-6 col-sm-6 col-xs-6 col-xs-offset-5 col-sm-offset-5 col-md-offset-5 slides-txt animated fadeIn">
+          Make design easier with SOLO GRAPHICS
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="row level1" style="text-align:center">
+    <div class="col-md-3 col-sm-6 col-xs-6 col-md-offset-3"><button class="btn btn-warning">Get Started</button></div>
+    <div class="col-md-3 col-sm-6 col-xs-6"><button class="btn btn-default">Learn More</button></div>
+  </div>
 </div>
 <div class="row">
 <div class="col-md-12 sect-two" style="text-shadow:2px 2px 1px rgb(200,200,200)">
@@ -67,13 +83,13 @@ you do not have to be a designer to get what you desire because on our platform 
 </p>
 </div>
 </div>
-<div class="col-md-12" style="text-align:center;padding:30px 0px;text-shadow:2px 2px 1px rgb(200,200,200)">
+<div class="col-md-12 level2" style="text-align:center;padding:30px 0px;text-shadow:2px 2px 1px rgb(200,200,200)">
   <h2>KEY <span class="img-txt">BENEFITS</span></h2>
 </div>
 <div class="row sect-three">
-<div class="col-md-5 col-md-offset-1" >
-<div class="col-md-1" style="color:#3D9970;"><i class="fa fa-dashboard fa-3x"></i></div>
-<div class="col-md-9 col-md-offset-1 sect-three-txt">
+<div class="col-md-5 col-sm-5 col-xs-5 col-xs-offset-1 col-sm-offset-1 col-md-offset-1" >
+<div class="col-md-1 col-sm-1 col-xs-1" style="color:#3D9970;"><i class="fa fa-dashboard fa-3x"></i></div>
+<div class="col-md-9 col-sm-9 col-xs-9 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 sect-three-txt">
 <h4><b>Increase Sales &amp Customers</b></h4><br>
 <p>Contrary to popular belief, Lorem Ipsum is not simply
   random text. It has roots in a piece of classical Latin literature from 45 BC, making
@@ -81,9 +97,9 @@ you do not have to be a designer to get what you desire because on our platform 
 </div>
 </div>
 
-<div class="col-md-5">
-  <div class="col-md-1" style="color:#3D9970;"><i class="fa fa-dashboard fa-3x"></i></div>
-  <div class="col-md-9 col-md-offset-1">
+<div class="col-md-5 col-sm-4 col-xs-4">
+  <div class="col-md-1 col-sm-1 col-xs-1" style="color:#3D9970;"><i class="fa fa-dashboard fa-3x"></i></div>
+  <div class="col-md-9 col-sm-9 col-xs-9 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 sect-three-txt">
 <h4><b>Simplify Work Flow</b></h4><br>
 <p>Contrary to popular belief, Lorem Ipsum is not simply
   random text. It has roots in a piece of classical Latin literature from 45 BC, making
@@ -91,9 +107,9 @@ you do not have to be a designer to get what you desire because on our platform 
   </div>
 </div>
 
-<div class="col-md-5 col-md-offset-1">
-<div class="col-md-1" style="color:#3D9970;"><i class="fa fa-dashboard fa-3x"></i></div>
-<div class="col-md-9 col-md-offset-1">
+<div class="col-md-5 col-sm-5 col-xs-5 col-xs-offset-1 col-sm-offset-1 col-md-offset-1">
+<div class="col-md-1 col-sm-1 col-xs-1" style="color:#3D9970;"><i class="fa fa-dashboard fa-3x"></i></div>
+<div class="col-md-9 col-sm-9 col-xs-9 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 sect-three-txt">
 <h4><b>Increase Sales &amp Customers</b></h4><br>
 <p>Contrary to popular belief, Lorem Ipsum is not simply
   random text. It has roots in a piece of classical Latin literature from 45 BC, making
@@ -101,9 +117,9 @@ you do not have to be a designer to get what you desire because on our platform 
 </div>
 </div>
 
-<div class="col-md-5">
-  <div class="col-md-1" style="color:#3D9970;"><i class="fa fa-dashboard fa-3x"></i></div>
-  <div class="col-md-9 col-md-offset-1">
+<div class="col-md-5 col-sm-5 col-xs-5">
+  <div class="col-md-1 col-sm-1 col-xs-1" style="color:#3D9970;"><i class="fa fa-dashboard fa-3x"></i></div>
+  <div class="col-md-9 col-sm-9 col-xs-9 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 sect-three-txt">
 <h4><b>Simplify Work Flow</b></h4><br>
 <p>Contrary to popular belief, Lorem Ipsum is not simply
   random text. It has roots in a piece of classical Latin literature from 45 BC, making
@@ -113,83 +129,84 @@ you do not have to be a designer to get what you desire because on our platform 
 </div>
 <div class="col-md-12" style="padding-top:70px">
   <div class="col-md-12" style="text-align:center;color:rgb(50,50,50);"><h2>WORKS COMPLETED</h2>
-<div class="col-md-12" style="padding-left:100px">
-<div class="col-md-4 col-md-offset-1 line-deep"></div>
-<div class="col-md-1" style="height:2px"><i class="fa fa-circle" style="position:absolute;top:-5px;color:#428bca"></i></div>
-<div class="col-md-4 line-deep"></div>
+<div class="col-md-12" id="dsn">
+<div class="col-md-4 col-sm-4 col-xs-12 col-sm-offset-1 col-md-offset-1 line-deep "></div>
+<div class="col-md-1 col-sm-1 col-xs-12 m" style="height:2px"><i class="fa fa-circle" style="position:absolute;top:-5px;color:#428bca"></i></div>
+<div class="col-md-4 col-sm-4 col-xs-12 line-deep l"></div>
 </div>
   </div>
 
-  <div class="col-md-6 col-md-offset-3 sect-four">
+  <div class="col-md-6 col-sm-12 col-md-offset-3 sect-four">
 <ul class="pagination pagination-lg">
   <li class="active"><a onclick="nxtPage(0)">Page 1</a></li>
   <li><a onclick="nxtPage(1)">Page 2</a></li>
   <li><a onclick="nxtPage(2)">Page 3</a></li>
 </ul>
 </div>
-<div class="col-md-12 page sect-five animated slideInRight" id="page1">
-<div class="col-md-3 card sect-five-img1"></div>
-<div class="col-md-3 col-md-offset-1 card sect-five-img2"></div>
-<div class="col-md-3 col-md-offset-1 card sect-five-img3"></div>
+<div class="col-md-12 col-sm-12 page sect-five animated slideInRight" id="page1">
+<div class="col-md-3 col-sm-3 col-xs-12 card sect-five-img1"></div>
+<div class="col-md-3 col-sm-3 col-xs-12 col-sm-offset-1 col-md-offset-1 card sect-five-img2"></div>
+<div class="col-md-3 col-sm-3 col-xs-12 col-sm-offset-1 col-md-offset-1 card sect-five-img3"></div>
 
-<div class="col-md-3 card sect-five-img3"></div>
-<div class="col-md-3 col-md-offset-1 card sect-five-img1"></div>
-<div class="col-md-3 col-md-offset-1 card sect-five-img4"></div>
+<div class="col-md-3 col-sm-3 col-xs-12 card sect-five-img3"></div>
+<div class="col-md-3 col-sm-3 col-xs-12 col-sm-offset-1 col-md-offset-1 card sect-five-img1"></div>
+<div class="col-md-3 col-sm-3 col-xs-12 col-sm-offset-1 col-md-offset-1 card sect-five-img4"></div>
 </div>
 
 <div class="col-md-12 page sect-five animated slideInRight" id="page2">
-<div class="col-md-3 card sect-five-img6"></div>
-<div class="col-md-3 col-md-offset-1 card sect-five-img2"></div>
-<div class="col-md-3 col-md-offset-1 card sect-five-img5"></div>
+<div class="col-md-3 col-sm-3 col-xs-12 card sect-five-img6"></div>
+<div class="col-md-3 col-sm-3 col-xs-12 col-sm-offset-1 col-md-offset-1 card sect-five-img2"></div>
+<div class="col-md-3 col-sm-3 col-xs-12 col-sm-offset-1 col-md-offset-1 card sect-five-img5"></div>
 
-<div class="col-md-3 card sect-five-img2"></div>
-<div class="col-md-3 col-md-offset-1 card sect-five-img1"></div>
-<div class="col-md-3 col-md-offset-1 card sect-five-img3"></div>
+<div class="col-md-3 col-sm-3 col-xs-12 card sect-five-img2"></div>
+<div class="col-md-3 col-sm-3 col-xs-12 col-sm-offset-1 col-md-offset-1 card sect-five-img1"></div>
+<div class="col-md-3 col-sm-3 col-xs-12 col-sm-offset-1 col-md-offset-1 card sect-five-img3"></div>
 </div>
 
 <div class="col-md-12 page sect-five animated slideInRight" id="page3">
-<div class="col-md-3 card sect-five-img7"></div>
-<div class="col-md-3 col-md-offset-1 card sect-five-img2"></div>
-<div class="col-md-3 col-md-offset-1 card sect-five-img8"></div>
+<div class="col-md-3 col-sm-3 col-xs-12 card sect-five-img7"></div>
+<div class="col-md-3 col-sm-3 col-xs-12 col-sm-offset-1 col-md-offset-1 card sect-five-img2"></div>
+<div class="col-md-3 col-sm-3 col-xs-12 col-sm-offset-1 col-md-offset-1 card sect-five-img8"></div>
 
-<div class="col-md-3 card sect-five-img3"></div>
-<div class="col-md-3 col-md-offset-1 card sect-five-img6"></div>
-<div class="col-md-3 col-md-offset-1 card sect-five-img4"></div>
+<div class="col-md-3 col-sm-3 col-xs-3 card sect-five-img3"></div>
+<div class="col-md-3 col-sm-3 col-xs-3 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 card sect-five-img6"></div>
+<div class="col-md-3 col-sm-3 col-xs-3 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 card sect-five-img4"></div>
 </div>
 </div>
 <div class="col-md-12 contact-us">
 <div class="col-md-12" style="text-align:center;color:rgb(50,50,50);"><h2>Contact Us</h2>
-  <div class="col-md-12" style="padding-left:100px">
-  <div class="col-md-4 col-md-offset-1 line-deep"></div>
-  <div class="col-md-1" style="height:2px"><i class="fa fa-circle" style="position:absolute;top:-5px;color:#428bca"></i></div>
-  <div class="col-md-4 line-deep"></div>
+  <div class="col-md-12" id="dsn">
+  <div class="col-md-4 col-sm-4 col-xs-12 col-sm-offset-1 col-md-offset-1 line-deep"></div>
+  <div class="col-md-1 col-sm-1 col-xs-1 m" style="height:2px"><i class="fa fa-circle" style="position:absolute;top:-5px;color:#428bca"></i></div>
+  <div class="col-md-4 col-sm-4 col-xs-12 line-deep l"></div>
   </div>
 </div>
 <div class="row">
-<div class="col-md-8">
+<div class="col-md-8 col-sm-8 col-xs-12">
 <center><h4 style="color:#000">Fill your details in the form below</h4></center>
 <form action="<?php $_SERVER['PHP_SELF']; ?>" role="form" method="post">
-  <div class="col-md-7 col-md-offset-2 input-field">
+  <div class="col-md-7 col-sm-7 col-xs-12 col-sm-offset-2 col-md-offset-2 input-field">
 <input type="text" class="form-control" placeholder="Full Name" required>
 </div>
-<div class="col-md-7 col-md-offset-2 input-field">
+<div class="col-md-7 col-sm-7 col-xs-12 col-sm-offset-2 col-md-offset-2 input-field">
 <input type="email" class="form-control" placeholder="Email Address" required>
 </div>
-<div class="col-md-7 col-md-offset-2 input-field">
+<div class="col-md-7 col-sm-7 col-xs-12 col-sm-offset-2 col-md-offset-2 input-field">
 <textarea class="form-control" cols="50" rows="5" placeholder="Comments" style="resize:none" required></textarea>
 </div>
-<div class="col-md-7 col-md-offset-4 input-field">
+<div class="col-md-7 col-sm-7 col-xs-12 col-sm-offset-3 col-md-offset-4 input-field">
 <input type="submit" name="submit" class="btn btn-warning btn-lg" style="border-radius:0" value="send message">
 </div>
 </form>
 </div>
 
-<div class="col-md-4">
+<div class="col-md-4 col-sm-4 col-xs-12">
 <h4 style="color:#000">Contact Details</h4>
 <p style="line-height:30px;padding-top:10px">21 Samson Street, Surulere Lagos<br>+234 81 378 34<br>solodesign@mail.com</p>
 </div>
 </div>
 </div>
 <script src="js/script.js"></script>
+
 </body>
 </html>
