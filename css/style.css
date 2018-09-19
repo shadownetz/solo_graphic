@@ -74,7 +74,7 @@ border-radius: 20px;text-shadow: 2px 2px 2px #000;animation-delay: 1s;animation-
 }
 .sect-three{}
 .sect-three .sect-three-txt{
-  text-align: justify;
+  text-align: left;
 }
 .level1{margin-top:10px}
 #dsn{padding-left:100px}
@@ -92,6 +92,10 @@ border-radius: 20px;text-shadow: 2px 2px 2px #000;animation-delay: 1s;animation-
 
   .pattern-head-content ul{padding:10px 10px 20px 40px}
 .pattern-head-content ul li{padding:30px 20px;}
+.m{display: none;}
+#dsn{padding-left: 30px}
+.l{margin-top:7px}
+.sect-five{padding:5px;box-shadow:none}
 }
 @media screen and (max-width:728px){
   .pattern-head-img{padding-top:0}
@@ -106,9 +110,6 @@ border-radius: 20px;text-shadow: 2px 2px 2px #000;animation-delay: 1s;animation-
   .sect-two p{font-size: 1em}
   .pattern-head-content ul{padding:10px 10px 10px 10px}
 .pattern-head-content ul li{padding:5px 5px;}
-#dsn{padding-left: 30px}
-.l{margin-top:7px}
-.m{display: none;}
 }
 @media screen and (max-width:375px){
   .pattern-head-img{padding-top:5px;}
@@ -117,6 +118,7 @@ border-radius: 20px;text-shadow: 2px 2px 2px #000;animation-delay: 1s;animation-
 .level1{margin-top:1px}
 .sect-three-txt{font-size:0.7em}
 .sect-four{padding:0}
+.sect-five{padding:20px}
 }
 @media screen and (max-width:320px){
   .pattern-head-content ul{padding:10px 0px 5px 5px}
